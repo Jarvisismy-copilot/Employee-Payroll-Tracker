@@ -30,10 +30,11 @@ const collectEmployees = function() {
 
 }
 
-// Display the average salary
-const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
 
+
+// Display the average salary
+const displayAverageSalary = function(employees) {
 
 
 }
@@ -42,6 +43,14 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
 }
+
+employees.sort(function(a,b) {
+  if (a.lastName < b.lastName) {
+    return -1;
+  } else {
+    return 1;
+  }
+});
 
  //getRandomEmployee(employees);
 
