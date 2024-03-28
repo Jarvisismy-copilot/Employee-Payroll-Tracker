@@ -13,7 +13,7 @@ const collectEmployees = function() {
     let firstName = prompt('what is the first name?');
     //console.log(firstName);
     let lastName = prompt('what is the last name?');
-    //console.log(lastName);
+    //console.log(lastName);git s
     let salary = prompt('what is the salary?');
     if(!isNaN(parseInt(salary))){
     //console.log(salary);
