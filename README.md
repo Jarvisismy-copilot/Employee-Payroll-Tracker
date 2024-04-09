@@ -7,3 +7,4 @@ Implemented functions using JavaScript in order to view and manage employee payr
 ## Usage
 
 https://github.com/Jarvisismy-copilot/Employee-Payroll-Tracker
+
